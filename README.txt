@@ -1,0 +1,4 @@
+-> Sample data files are in the dataFiles folder
+-> path properties file is in the properties folder
+-> logs are in the logs folder
+-> if no path is given in properties folder, defaultFolder will be considered.

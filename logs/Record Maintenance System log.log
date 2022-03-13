@@ -1,0 +1,848 @@
+ 21:05:00.846 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : defaultFiles\newData.csv
+21:05:00.848 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : defaultFiles\EmployeeData.dat
+21:05:00.848 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:05:00.851 [main] INFO  assignment.RecordMaintenanceSystem - Number of New records added : 3
+
+21:05:00.852 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:05:00.852 [main] INFO  assignment.RecordMaintenanceSystem - Number of overwritten Records : 10
+
+21:05:00.852 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:05:00.852 [main] INFO  assignment.RecordMaintenanceSystem - Following entries have been overwritten : 
+
+21:05:00.853 [main] INFO  assignment.RecordMaintenanceSystem - EmployeeData.dat now have the updated version of old entries and new entries. 
+
+21:05:00.854 [main] INFO  assignment.RecordMaintenanceSystem - oldData.csv Have the overwritten data
+21:17:36.560 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : defaultFiles\newData.csv
+21:17:36.561 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : defaultFiles\EmployeeData.dat
+21:17:36.561 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:17:36.564 [main] INFO  assignment.RecordMaintenanceSystem - Number of New records added : 0
+
+21:17:36.564 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:17:36.564 [main] INFO  assignment.RecordMaintenanceSystem - Number of overwritten Records : 10
+
+21:17:36.564 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:17:36.564 [main] INFO  assignment.RecordMaintenanceSystem - Following entries have been overwritten : 
+
+21:17:36.565 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Shimla, Male, 1700000
+
+21:17:36.565 [main] INFO  assignment.RecordMaintenanceSystem - 2, Shubham, Mohali, Male, 600000
+
+21:17:36.565 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, Kangra, Male, 400000
+
+21:17:36.565 [main] INFO  assignment.RecordMaintenanceSystem - 4, Siraj, Kangra, Male, 600000
+
+21:17:36.565 [main] INFO  assignment.RecordMaintenanceSystem - 9, Ankita, Hamirpur, Female, 320000
+
+21:17:36.566 [main] INFO  assignment.RecordMaintenanceSystem - 5, Rishabh, Shimla, Male, 300000
+
+21:17:36.566 [main] INFO  assignment.RecordMaintenanceSystem - 6, Shivang, Kullu, Male, 300000
+
+21:17:36.566 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 1000000
+
+21:17:36.566 [main] INFO  assignment.RecordMaintenanceSystem - 8, Palak, Mandi, Female, 300000
+
+21:17:36.566 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 600000
+
+21:17:36.567 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:17:36.567 [main] INFO  assignment.RecordMaintenanceSystem - EmployeeData.dat now have the updated version of old entries and new entries. 
+
+21:17:36.567 [main] INFO  assignment.RecordMaintenanceSystem - oldData.csv Have the overwritten data
+21:18:42.044 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : defaultFiles\newData.csv
+21:18:42.045 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : defaultFiles\EmployeeData.dat
+21:18:42.045 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:18:42.048 [main] INFO  assignment.RecordMaintenanceSystem - Number of New records added : 3
+
+21:18:42.048 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:18:42.048 [main] INFO  assignment.RecordMaintenanceSystem - Number of overwritten Records : 10
+
+21:18:42.048 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:18:42.048 [main] INFO  assignment.RecordMaintenanceSystem - Following entries have been overwritten : 
+
+21:18:42.050 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, H.P, Male, 500000
+
+21:18:42.050 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 600000
+
+21:18:42.050 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+21:18:42.050 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 700000
+
+21:18:42.050 [main] INFO  assignment.RecordMaintenanceSystem - 2, Shubham, P.B, Male, 600000
+
+21:18:42.050 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+21:18:42.050 [main] INFO  assignment.RecordMaintenanceSystem - 4, Siraj, Kangra, Male, 600000
+
+21:18:42.051 [main] INFO  assignment.RecordMaintenanceSystem - 5, Rishabh, H.P, Male, 300000
+
+21:18:42.051 [main] INFO  assignment.RecordMaintenanceSystem - 6, Shivang, Kullu, Male, 300000
+
+21:18:42.051 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 600000
+
+21:18:42.052 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:18:42.052 [main] INFO  assignment.RecordMaintenanceSystem - EmployeeData.dat now have the updated version of old entries and new entries. 
+
+21:18:42.052 [main] INFO  assignment.RecordMaintenanceSystem - oldData.csv Have the overwritten data
+21:19:42.075 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : defaultFiles\newData.csv
+21:19:42.077 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : defaultFiles\EmployeeData.dat
+21:19:42.078 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:19:42.080 [main] INFO  assignment.RecordMaintenanceSystem - Number of New records added : 3
+
+21:19:42.080 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:19:42.080 [main] INFO  assignment.RecordMaintenanceSystem - Number of overwritten Records : 10
+
+21:19:42.080 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:19:42.081 [main] INFO  assignment.RecordMaintenanceSystem - Following entries have been overwritten : 
+
+21:19:42.082 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, H.P, Male, 500000
+
+21:19:42.082 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 600000
+
+21:19:42.082 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+21:19:42.082 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 700000
+
+21:19:42.082 [main] INFO  assignment.RecordMaintenanceSystem - 2, Shubham, P.B, Male, 600000
+
+21:19:42.082 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+21:19:42.082 [main] INFO  assignment.RecordMaintenanceSystem - 4, Siraj, Kangra, Male, 600000
+
+21:19:42.083 [main] INFO  assignment.RecordMaintenanceSystem - 5, Rishabh, H.P, Male, 300000
+
+21:19:42.083 [main] INFO  assignment.RecordMaintenanceSystem - 6, Shivang, Kullu, Male, 300000
+
+21:19:42.083 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 600000
+
+21:19:42.084 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:19:42.084 [main] INFO  assignment.RecordMaintenanceSystem - EmployeeData.dat now have the updated version of old entries and new entries. 
+
+21:19:42.084 [main] INFO  assignment.RecordMaintenanceSystem - oldData.csv Have the overwritten data
+21:20:36.315 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : newData.csv
+21:20:36.317 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : EmployeeData.dat
+21:20:36.317 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:20:36.320 [main] INFO  assignment.RecordMaintenanceSystem - Number of New records added : 3
+
+21:20:36.320 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:20:36.320 [main] INFO  assignment.RecordMaintenanceSystem - Number of overwritten Records : 10
+
+21:20:36.321 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:20:36.321 [main] INFO  assignment.RecordMaintenanceSystem - Following entries have been overwritten : 
+
+21:20:36.322 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, H.P, Male, 500000
+
+21:20:36.322 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 600000
+
+21:20:36.322 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+21:20:36.322 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 700000
+
+21:20:36.322 [main] INFO  assignment.RecordMaintenanceSystem - 2, Shubham, P.B, Male, 600000
+
+21:20:36.322 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+21:20:36.323 [main] INFO  assignment.RecordMaintenanceSystem - 4, Siraj, Kangra, Male, 600000
+
+21:20:36.323 [main] INFO  assignment.RecordMaintenanceSystem - 5, Rishabh, H.P, Male, 300000
+
+21:20:36.323 [main] INFO  assignment.RecordMaintenanceSystem - 6, Shivang, Kullu, Male, 300000
+
+21:20:36.323 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 600000
+
+21:20:36.324 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:20:36.324 [main] INFO  assignment.RecordMaintenanceSystem - EmployeeData.dat now have the updated version of old entries and new entries. 
+
+21:20:36.324 [main] INFO  assignment.RecordMaintenanceSystem - oldData.csv Have the overwritten data
+21:20:43.261 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : newData.csv
+21:20:43.263 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : EmployeeData.dat
+21:20:43.263 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:20:43.266 [main] INFO  assignment.RecordMaintenanceSystem - Number of New records added : 0
+
+21:20:43.266 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:20:43.266 [main] INFO  assignment.RecordMaintenanceSystem - Number of overwritten Records : 10
+
+21:20:43.266 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:20:43.266 [main] INFO  assignment.RecordMaintenanceSystem - Following entries have been overwritten : 
+
+21:20:43.267 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Shimla, Male, 1700000
+
+21:20:43.268 [main] INFO  assignment.RecordMaintenanceSystem - 2, Shubham, Mohali, Male, 600000
+
+21:20:43.268 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, Kangra, Male, 400000
+
+21:20:43.268 [main] INFO  assignment.RecordMaintenanceSystem - 4, Siraj, Kangra, Male, 600000
+
+21:20:43.268 [main] INFO  assignment.RecordMaintenanceSystem - 9, Ankita, Hamirpur, Female, 320000
+
+21:20:43.268 [main] INFO  assignment.RecordMaintenanceSystem - 5, Rishabh, Shimla, Male, 300000
+
+21:20:43.268 [main] INFO  assignment.RecordMaintenanceSystem - 6, Shivang, Kullu, Male, 300000
+
+21:20:43.268 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 1000000
+
+21:20:43.268 [main] INFO  assignment.RecordMaintenanceSystem - 8, Palak, Mandi, Female, 300000
+
+21:20:43.268 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 600000
+
+21:20:43.269 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:20:43.269 [main] INFO  assignment.RecordMaintenanceSystem - EmployeeData.dat now have the updated version of old entries and new entries. 
+
+21:20:43.270 [main] INFO  assignment.RecordMaintenanceSystem - oldData.csv Have the overwritten data
+21:21:00.390 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : ndf
+21:21:00.392 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : dfdf
+21:21:00.392 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:21:00.392 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - java.io.FileNotFoundException
+21:32:58.678 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : ndf
+21:32:58.680 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : dfdf
+21:32:58.680 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:32:58.681 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - assignment.UserDefinedException: Target File not found
+21:34:44.411 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : newData.csv
+21:34:44.413 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : EmployeeData.dat
+21:34:44.413 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:34:44.414 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - assignment.UserDefinedException: Target File not found
+21:35:21.723 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : newData.csv
+21:35:21.724 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : EmployeeData.dat
+21:35:21.724 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:35:21.725 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - assignment.UserDefinedException: Target File not found
+21:36:12.087 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : C:\Users\shusharma\Desktop\newData.csv
+21:36:12.088 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : C:\Users\shusharma\Desktop\EmployeeData.dat
+21:36:12.088 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:36:12.092 [main] INFO  assignment.RecordMaintenanceSystem - Number of New records added : 3
+
+21:36:12.092 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:36:12.092 [main] INFO  assignment.RecordMaintenanceSystem - Number of overwritten Records : 10
+
+21:36:12.092 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:36:12.092 [main] INFO  assignment.RecordMaintenanceSystem - Following entries have been overwritten : 
+
+21:36:12.092 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, H.P, Male, 500000
+
+21:36:12.093 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 600000
+
+21:36:12.093 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+21:36:12.093 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 700000
+
+21:36:12.093 [main] INFO  assignment.RecordMaintenanceSystem - 2, Shubham, P.B, Male, 600000
+
+21:36:12.093 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+21:36:12.093 [main] INFO  assignment.RecordMaintenanceSystem - 4, Siraj, Kangra, Male, 600000
+
+21:36:12.094 [main] INFO  assignment.RecordMaintenanceSystem - 5, Rishabh, H.P, Male, 300000
+
+21:36:12.094 [main] INFO  assignment.RecordMaintenanceSystem - 6, Shivang, Kullu, Male, 300000
+
+21:36:12.094 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 600000
+
+21:36:12.095 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:36:12.095 [main] INFO  assignment.RecordMaintenanceSystem - EmployeeData.dat now have the updated version of old entries and new entries. 
+
+21:36:12.095 [main] INFO  assignment.RecordMaintenanceSystem - oldData.csv Have the overwritten data
+21:36:27.917 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : C:\Users\shusharma\Desktop\newData.csv
+21:36:27.919 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : C:\Users\shusharma\Desktop\EmployeeData.dat
+21:36:27.919 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:36:27.922 [main] INFO  assignment.RecordMaintenanceSystem - Number of New records added : 0
+
+21:36:27.922 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:36:27.922 [main] INFO  assignment.RecordMaintenanceSystem - Number of overwritten Records : 10
+
+21:36:27.922 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:36:27.922 [main] INFO  assignment.RecordMaintenanceSystem - Following entries have been overwritten : 
+
+21:36:27.923 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Shimla, Male, 1700000
+
+21:36:27.924 [main] INFO  assignment.RecordMaintenanceSystem - 2, Shubham, Mohali, Male, 600000
+
+21:36:27.924 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, Kangra, Male, 400000
+
+21:36:27.924 [main] INFO  assignment.RecordMaintenanceSystem - 4, Siraj, Kangra, Male, 600000
+
+21:36:27.924 [main] INFO  assignment.RecordMaintenanceSystem - 9, Ankita, Hamirpur, Female, 320000
+
+21:36:27.924 [main] INFO  assignment.RecordMaintenanceSystem - 5, Rishabh, Shimla, Male, 300000
+
+21:36:27.924 [main] INFO  assignment.RecordMaintenanceSystem - 6, Shivang, Kullu, Male, 300000
+
+21:36:27.924 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 1000000
+
+21:36:27.924 [main] INFO  assignment.RecordMaintenanceSystem - 8, Palak, Mandi, Female, 300000
+
+21:36:27.924 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 600000
+
+21:36:27.925 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:36:27.925 [main] INFO  assignment.RecordMaintenanceSystem - EmployeeData.dat now have the updated version of old entries and new entries. 
+
+21:36:27.925 [main] INFO  assignment.RecordMaintenanceSystem - oldData.csv Have the overwritten data
+21:37:30.196 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : C:\Users\shusharma\Desktop\newData.csv
+21:37:30.199 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : C:\Users\shusharma\Desktop\EmployeeData.dat
+21:37:30.199 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:37:30.201 [main] INFO  assignment.RecordMaintenanceSystem - Number of New records added : 3
+
+21:37:30.201 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:37:30.201 [main] INFO  assignment.RecordMaintenanceSystem - Number of overwritten Records : 10
+
+21:37:30.201 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:37:30.202 [main] INFO  assignment.RecordMaintenanceSystem - Following entries have been overwritten : 
+
+21:37:30.203 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, H.P, Male, 500000
+
+21:37:30.203 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 600000
+
+21:37:30.203 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+21:37:30.203 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 700000
+
+21:37:30.203 [main] INFO  assignment.RecordMaintenanceSystem - 2, Shubham, P.B, Male, 600000
+
+21:37:30.203 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+21:37:30.203 [main] INFO  assignment.RecordMaintenanceSystem - 4, Siraj, Kangra, Male, 600000
+
+21:37:30.203 [main] INFO  assignment.RecordMaintenanceSystem - 5, Rishabh, H.P, Male, 300000
+
+21:37:30.203 [main] INFO  assignment.RecordMaintenanceSystem - 6, Shivang, Kullu, Male, 300000
+
+21:37:30.203 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 600000
+
+21:37:30.205 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:37:30.205 [main] INFO  assignment.RecordMaintenanceSystem - EmployeeData.dat now have the updated version of old entries and new entries. 
+
+21:37:30.205 [main] INFO  assignment.RecordMaintenanceSystem - oldData.csv Have the overwritten data
+21:37:45.083 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : C:\Users\shusharma\Desktop\newData.csv
+21:37:45.085 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : C:\Users\shusharma\Desktop\EmployeeData.dat
+21:37:45.085 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:37:45.088 [main] INFO  assignment.RecordMaintenanceSystem - Number of New records added : 0
+
+21:37:45.088 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:37:45.088 [main] INFO  assignment.RecordMaintenanceSystem - Number of overwritten Records : 10
+
+21:37:45.088 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:37:45.088 [main] INFO  assignment.RecordMaintenanceSystem - Following entries have been overwritten : 
+
+21:37:45.089 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Shimla, Male, 1700000
+
+21:37:45.090 [main] INFO  assignment.RecordMaintenanceSystem - 2, Shubham, Mohali, Male, 600000
+
+21:37:45.090 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, Kangra, Male, 400000
+
+21:37:45.090 [main] INFO  assignment.RecordMaintenanceSystem - 4, Siraj, Kangra, Male, 600000
+
+21:37:45.090 [main] INFO  assignment.RecordMaintenanceSystem - 9, Ankita, Hamirpur, Female, 320000
+
+21:37:45.090 [main] INFO  assignment.RecordMaintenanceSystem - 5, Rishabh, Shimla, Male, 300000
+
+21:37:45.090 [main] INFO  assignment.RecordMaintenanceSystem - 6, Shivang, Kullu, Male, 300000
+
+21:37:45.090 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 1000000
+
+21:37:45.090 [main] INFO  assignment.RecordMaintenanceSystem - 8, Palak, Mandi, Female, 300000
+
+21:37:45.091 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 600000
+
+21:37:45.091 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:37:45.092 [main] INFO  assignment.RecordMaintenanceSystem - EmployeeData.dat now have the updated version of old entries and new entries. 
+
+21:37:45.092 [main] INFO  assignment.RecordMaintenanceSystem - oldData.csv Have the overwritten data
+21:38:09.677 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : C:\Users\shusharma\Desktop\newData.csv
+21:38:09.678 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : C:\Users\shusharma\Desktop\EmployeeData.dat
+21:38:09.678 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:38:09.681 [main] INFO  assignment.RecordMaintenanceSystem - Number of New records added : 3
+
+21:38:09.681 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:38:09.682 [main] INFO  assignment.RecordMaintenanceSystem - Number of overwritten Records : 10
+
+21:38:09.682 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:38:09.682 [main] INFO  assignment.RecordMaintenanceSystem - Following entries have been overwritten : 
+
+21:38:09.683 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, H.P, Male, 500000
+
+21:38:09.683 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 600000
+
+21:38:09.683 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+21:38:09.683 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 700000
+
+21:38:09.683 [main] INFO  assignment.RecordMaintenanceSystem - 2, Shubham, P.B, Male, 600000
+
+21:38:09.684 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+21:38:09.684 [main] INFO  assignment.RecordMaintenanceSystem - 4, Siraj, Kangra, Male, 600000
+
+21:38:09.684 [main] INFO  assignment.RecordMaintenanceSystem - 5, Rishabh, H.P, Male, 300000
+
+21:38:09.684 [main] INFO  assignment.RecordMaintenanceSystem - 6, Shivang, Kullu, Male, 300000
+
+21:38:09.684 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 600000
+
+21:38:09.685 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:38:09.685 [main] INFO  assignment.RecordMaintenanceSystem - EmployeeData.dat now have the updated version of old entries and new entries. 
+
+21:38:09.685 [main] INFO  assignment.RecordMaintenanceSystem - oldData.csv Have the overwritten data
+21:40:11.230 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : defaultFiles\newData.csv
+21:40:11.230 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : defaultFiles\EmployeeData.dat
+21:40:11.231 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:40:11.233 [main] INFO  assignment.RecordMaintenanceSystem - Number of New records added : 3
+
+21:40:11.234 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:40:11.234 [main] INFO  assignment.RecordMaintenanceSystem - Number of overwritten Records : 10
+
+21:40:11.234 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:40:11.234 [main] INFO  assignment.RecordMaintenanceSystem - Following entries have been overwritten : 
+
+21:40:11.235 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, H.P, Male, 500000
+
+21:40:11.235 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 600000
+
+21:40:11.235 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+21:40:11.235 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 700000
+
+21:40:11.235 [main] INFO  assignment.RecordMaintenanceSystem - 2, Shubham, P.B, Male, 600000
+
+21:40:11.236 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+21:40:11.236 [main] INFO  assignment.RecordMaintenanceSystem - 4, Siraj, Kangra, Male, 600000
+
+21:40:11.236 [main] INFO  assignment.RecordMaintenanceSystem - 5, Rishabh, H.P, Male, 300000
+
+21:40:11.236 [main] INFO  assignment.RecordMaintenanceSystem - 6, Shivang, Kullu, Male, 300000
+
+21:40:11.236 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 600000
+
+21:40:11.237 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:40:11.237 [main] INFO  assignment.RecordMaintenanceSystem - EmployeeData.dat now have the updated version of old entries and new entries. 
+
+21:40:11.237 [main] INFO  assignment.RecordMaintenanceSystem - oldData.csv Have the overwritten data
+21:53:35.197 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : defaultFiles\newData.csv
+21:53:35.199 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : defaultFiles\EmployeeData.dat
+21:53:35.199 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:53:35.202 [main] INFO  assignment.RecordMaintenanceSystem - Number of New records added : 3
+
+21:53:35.203 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:53:35.203 [main] INFO  assignment.RecordMaintenanceSystem - Number of overwritten Records : 10
+
+21:53:35.203 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:53:35.203 [main] INFO  assignment.RecordMaintenanceSystem - Following entries have been overwritten : 
+
+21:53:35.204 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, H.P, Male, 500000
+
+21:53:35.204 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 600000
+
+21:53:35.204 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+21:53:35.204 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 700000
+
+21:53:35.204 [main] INFO  assignment.RecordMaintenanceSystem - 2, Shubham, P.B, Male, 600000
+
+21:53:35.204 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+21:53:35.205 [main] INFO  assignment.RecordMaintenanceSystem - 4, Siraj, Kangra, Male, 600000
+
+21:53:35.205 [main] INFO  assignment.RecordMaintenanceSystem - 5, Rishabh, H.P, Male, 300000
+
+21:53:35.205 [main] INFO  assignment.RecordMaintenanceSystem - 6, Shivang, Kullu, Male, 300000
+
+21:53:35.205 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 600000
+
+21:53:35.206 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+21:53:35.206 [main] INFO  assignment.RecordMaintenanceSystem - EmployeeData.dat now have the updated version of old entries and new entries. 
+
+21:53:35.206 [main] INFO  assignment.RecordMaintenanceSystem - oldData.csv Have the overwritten data
+12:37:53.692 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : defaultFiles\newData.csv
+12:37:53.694 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : defaultFiles\EmployeeData.dat
+12:37:53.694 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+12:37:53.697 [main] INFO  assignment.RecordMaintenanceSystem - Number of New records added : 3
+
+12:37:53.697 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+12:37:53.697 [main] INFO  assignment.RecordMaintenanceSystem - Number of overwritten Records : 10
+
+12:37:53.697 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+12:37:53.697 [main] INFO  assignment.RecordMaintenanceSystem - Following entries have been overwritten : 
+
+12:37:53.699 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, H.P, Male, 500000
+
+12:37:53.699 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 600000
+
+12:37:53.699 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+12:37:53.699 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 700000
+
+12:37:53.699 [main] INFO  assignment.RecordMaintenanceSystem - 2, Shubham, P.B, Male, 600000
+
+12:37:53.699 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+12:37:53.699 [main] INFO  assignment.RecordMaintenanceSystem - 4, Siraj, Kangra, Male, 600000
+
+12:37:53.699 [main] INFO  assignment.RecordMaintenanceSystem - 5, Rishabh, H.P, Male, 300000
+
+12:37:53.700 [main] INFO  assignment.RecordMaintenanceSystem - 6, Shivang, Kullu, Male, 300000
+
+12:37:53.700 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 600000
+
+12:37:53.701 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+12:37:53.701 [main] INFO  assignment.RecordMaintenanceSystem - EmployeeData.dat now have the updated version of old entries and new entries. 
+
+12:37:53.701 [main] INFO  assignment.RecordMaintenanceSystem - oldData.csv Have the overwritten data
+12:41:03.662 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : C:\Users\shusharma\Desktop\newData.csv
+12:41:03.663 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : C:\Users\shusharma\Desktop\EmployeeData.dat
+12:41:03.663 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+12:41:03.666 [main] INFO  assignment.RecordMaintenanceSystem - Number of New records added : 3
+
+12:41:03.667 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+12:41:03.667 [main] INFO  assignment.RecordMaintenanceSystem - Number of overwritten Records : 10
+
+12:41:03.667 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+12:41:03.667 [main] INFO  assignment.RecordMaintenanceSystem - Following entries have been overwritten : 
+
+12:41:03.668 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, H.P, Male, 500000
+
+12:41:03.668 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 600000
+
+12:41:03.668 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+12:41:03.668 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 700000
+
+12:41:03.668 [main] INFO  assignment.RecordMaintenanceSystem - 2, Shubham, P.B, Male, 600000
+
+12:41:03.668 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+12:41:03.669 [main] INFO  assignment.RecordMaintenanceSystem - 4, Siraj, Kangra, Male, 600000
+
+12:41:03.669 [main] INFO  assignment.RecordMaintenanceSystem - 5, Rishabh, H.P, Male, 300000
+
+12:41:03.669 [main] INFO  assignment.RecordMaintenanceSystem - 6, Shivang, Kullu, Male, 300000
+
+12:41:03.669 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 600000
+
+12:41:03.670 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+12:41:03.670 [main] INFO  assignment.RecordMaintenanceSystem - EmployeeData.dat now have the updated version of old entries and new entries. 
+
+12:41:03.670 [main] INFO  assignment.RecordMaintenanceSystem - oldData.csv Have the overwritten data
+12:43:25.233 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : C:\Users\shusharma\Desktop\newD
+12:43:25.235 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : C:\Users\shusharma\Desktop\Em
+12:43:25.236 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+12:43:25.236 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - java.io.FileNotFoundException: Target File not found
+12:43:45.447 [main] FATAL assignment.RecordMaintenanceSystem - absolutePath.properties Not Found
+12:43:45.449 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - java.lang.Exception
+12:44:20.657 [main] FATAL assignment.RecordMaintenanceSystem - Properties file Not Found
+12:44:20.659 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - java.lang.Exception
+12:44:33.542 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : C:\Users\shusharma\Desktop\newD
+12:44:33.544 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : C:\Users\shusharma\Desktop\Em
+12:44:33.544 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+12:44:33.545 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - java.io.FileNotFoundException: Target File not found
+12:44:43.362 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - java.lang.Exception
+12:45:51.410 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - java.lang.Exception
+12:46:08.178 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - java.lang.Exception
+12:46:44.083 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - java.lang.Exception
+12:47:01.446 [main] FATAL assignment.RecordMaintenanceSystem - Properties file Not Found
+12:47:01.449 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - java.lang.Exception
+12:47:17.066 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - java.lang.Exception
+12:47:47.769 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - java.lang.Exception
+12:48:04.978 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : C:\Users\shusharma\Desktop\newD
+12:48:04.980 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : C:\Users\shusharma\Desktop\Em
+12:48:04.980 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+12:48:04.981 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - java.io.FileNotFoundException: Target File not found
+12:54:35.043 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : C:\Users\shusharma\Desktop\newD
+12:54:35.045 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : C:\Users\shusharma\Desktop\Em
+12:54:35.045 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+12:54:35.045 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - java.io.FileNotFoundException: Target File not found
+12:55:03.044 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : C:\Users\shusharma\Desktop\newData.csv
+12:55:03.046 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : C:\Users\shusharma\Desktop\EmployeeData.dat
+12:55:03.046 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+12:55:03.049 [main] INFO  assignment.RecordMaintenanceSystem - Number of New records added : 3
+
+12:55:03.050 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+12:55:03.050 [main] INFO  assignment.RecordMaintenanceSystem - Number of overwritten Records : 10
+
+12:55:03.050 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+12:55:03.050 [main] INFO  assignment.RecordMaintenanceSystem - Following entries have been overwritten : 
+
+12:55:03.051 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, H.P, Male, 500000
+
+12:55:03.051 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 600000
+
+12:55:03.051 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+12:55:03.051 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 700000
+
+12:55:03.051 [main] INFO  assignment.RecordMaintenanceSystem - 2, Shubham, P.B, Male, 600000
+
+12:55:03.052 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+12:55:03.052 [main] INFO  assignment.RecordMaintenanceSystem - 4, Siraj, Kangra, Male, 600000
+
+12:55:03.052 [main] INFO  assignment.RecordMaintenanceSystem - 5, Rishabh, H.P, Male, 300000
+
+12:55:03.052 [main] INFO  assignment.RecordMaintenanceSystem - 6, Shivang, Kullu, Male, 300000
+
+12:55:03.052 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 600000
+
+12:55:03.053 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+12:55:03.053 [main] INFO  assignment.RecordMaintenanceSystem - EmployeeData.dat now have the updated version of old entries and new entries. 
+
+12:55:03.053 [main] INFO  assignment.RecordMaintenanceSystem - oldData.csv Have the overwritten data
+12:55:39.639 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : defaultFiles\newData.csv
+12:55:39.641 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : defaultFiles\EmployeeData.dat
+12:55:39.641 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+12:55:39.644 [main] INFO  assignment.RecordMaintenanceSystem - Number of New records added : 3
+
+12:55:39.644 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+12:55:39.645 [main] INFO  assignment.RecordMaintenanceSystem - Number of overwritten Records : 10
+
+12:55:39.645 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+12:55:39.645 [main] INFO  assignment.RecordMaintenanceSystem - Following entries have been overwritten : 
+
+12:55:39.645 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, H.P, Male, 500000
+
+12:55:39.645 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 600000
+
+12:55:39.646 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+12:55:39.646 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 700000
+
+12:55:39.646 [main] INFO  assignment.RecordMaintenanceSystem - 2, Shubham, P.B, Male, 600000
+
+12:55:39.646 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+12:55:39.646 [main] INFO  assignment.RecordMaintenanceSystem - 4, Siraj, Kangra, Male, 600000
+
+12:55:39.646 [main] INFO  assignment.RecordMaintenanceSystem - 5, Rishabh, H.P, Male, 300000
+
+12:55:39.646 [main] INFO  assignment.RecordMaintenanceSystem - 6, Shivang, Kullu, Male, 300000
+
+12:55:39.646 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 600000
+
+12:55:39.647 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+12:55:39.647 [main] INFO  assignment.RecordMaintenanceSystem - EmployeeData.dat now have the updated version of old entries and new entries. 
+
+12:55:39.647 [main] INFO  assignment.RecordMaintenanceSystem - oldData.csv Have the overwritten data
+12:57:25.514 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - java.lang.Exception
+13:04:19.822 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : defaultFiles\newData.csv
+13:04:19.823 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : defaultFiles\EmployeeData.dat
+13:04:19.823 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+13:04:19.826 [main] INFO  assignment.RecordMaintenanceSystem - Number of New records added : 0
+
+13:04:19.827 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+13:04:19.827 [main] INFO  assignment.RecordMaintenanceSystem - Number of overwritten Records : 10
+
+13:04:19.827 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+13:04:19.827 [main] INFO  assignment.RecordMaintenanceSystem - Following entries have been overwritten : 
+
+13:04:19.828 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Shimla, Male, 1700000
+
+13:04:19.828 [main] INFO  assignment.RecordMaintenanceSystem - 2, Shubham, Mohali, Male, 600000
+
+13:04:19.829 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, Kangra, Male, 400000
+
+13:04:19.829 [main] INFO  assignment.RecordMaintenanceSystem - 4, Siraj, Kangra, Male, 600000
+
+13:04:19.829 [main] INFO  assignment.RecordMaintenanceSystem - 9, Ankita, Hamirpur, Female, 320000
+
+13:04:19.829 [main] INFO  assignment.RecordMaintenanceSystem - 5, Rishabh, Shimla, Male, 300000
+
+13:04:19.829 [main] INFO  assignment.RecordMaintenanceSystem - 6, Shivang, Kullu, Male, 300000
+
+13:04:19.829 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 1000000
+
+13:04:19.829 [main] INFO  assignment.RecordMaintenanceSystem - 8, Palak, Mandi, Female, 300000
+
+13:04:19.829 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 600000
+
+13:04:19.830 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+13:04:19.830 [main] INFO  assignment.RecordMaintenanceSystem - EmployeeData.dat now have the updated version of old entries and new entries. 
+
+13:04:19.830 [main] INFO  assignment.RecordMaintenanceSystem - oldData.csv Have the overwritten data
+13:04:34.267 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - java.lang.Exception
+13:04:41.288 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : defaultFiles\newData.csv
+13:04:41.289 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : defaultFiles\EmployeeData.dat
+13:04:41.290 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+13:04:41.292 [main] INFO  assignment.RecordMaintenanceSystem - Number of New records added : 0
+
+13:04:41.293 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+13:04:41.293 [main] INFO  assignment.RecordMaintenanceSystem - Number of overwritten Records : 10
+
+13:04:41.293 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+13:04:41.293 [main] INFO  assignment.RecordMaintenanceSystem - Following entries have been overwritten : 
+
+13:04:41.294 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Shimla, Male, 1700000
+
+13:04:41.294 [main] INFO  assignment.RecordMaintenanceSystem - 2, Shubham, Mohali, Male, 600000
+
+13:04:41.294 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, Kangra, Male, 400000
+
+13:04:41.294 [main] INFO  assignment.RecordMaintenanceSystem - 4, Siraj, Kangra, Male, 600000
+
+13:04:41.295 [main] INFO  assignment.RecordMaintenanceSystem - 9, Ankita, Hamirpur, Female, 320000
+
+13:04:41.295 [main] INFO  assignment.RecordMaintenanceSystem - 5, Rishabh, Shimla, Male, 300000
+
+13:04:41.295 [main] INFO  assignment.RecordMaintenanceSystem - 6, Shivang, Kullu, Male, 300000
+
+13:04:41.295 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 1000000
+
+13:04:41.295 [main] INFO  assignment.RecordMaintenanceSystem - 8, Palak, Mandi, Female, 300000
+
+13:04:41.295 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 600000
+
+13:04:41.296 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+13:04:41.296 [main] INFO  assignment.RecordMaintenanceSystem - EmployeeData.dat now have the updated version of old entries and new entries. 
+
+13:04:41.296 [main] INFO  assignment.RecordMaintenanceSystem - oldData.csv Have the overwritten data
+13:05:56.434 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : C:\Users\shusharma\Desktop\newData.csv
+13:05:56.436 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : C:\Users\shusharma\Desktop\EmployeeData.dat
+13:05:56.436 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+13:05:56.439 [main] INFO  assignment.RecordMaintenanceSystem - Number of New records added : 3
+
+13:05:56.439 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+13:05:56.439 [main] INFO  assignment.RecordMaintenanceSystem - Number of overwritten Records : 10
+
+13:05:56.439 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+13:05:56.440 [main] INFO  assignment.RecordMaintenanceSystem - Following entries have been overwritten : 
+
+13:05:56.441 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, H.P, Male, 500000
+
+13:05:56.441 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 600000
+
+13:05:56.441 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+13:05:56.441 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 700000
+
+13:05:56.441 [main] INFO  assignment.RecordMaintenanceSystem - 2, Shubham, P.B, Male, 600000
+
+13:05:56.441 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+13:05:56.442 [main] INFO  assignment.RecordMaintenanceSystem - 4, Siraj, Kangra, Male, 600000
+
+13:05:56.442 [main] INFO  assignment.RecordMaintenanceSystem - 5, Rishabh, H.P, Male, 300000
+
+13:05:56.442 [main] INFO  assignment.RecordMaintenanceSystem - 6, Shivang, Kullu, Male, 300000
+
+13:05:56.442 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 600000
+
+13:05:56.443 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+13:05:56.443 [main] INFO  assignment.RecordMaintenanceSystem - EmployeeData.dat now have the updated version of old entries and new entries. 
+
+13:05:56.443 [main] INFO  assignment.RecordMaintenanceSystem - oldData.csv Have the overwritten data
+13:21:37.465 [main] FATAL assignment.RecordMaintenanceSystem - Properties file Not Found
+13:21:37.468 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - java.lang.Exception
+13:24:21.551 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : C:\Users\shusharma\Desktop\newDat
+13:24:21.553 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : C:\Users\shusharma\Desktop\Employ
+13:24:21.553 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+13:24:21.554 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - java.io.FileNotFoundException: Target File not found
+13:25:12.510 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : defaultFiles\newData.csv
+13:25:12.512 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : defaultFiles\EmployeeData.dat
+13:25:12.512 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+13:25:12.515 [main] INFO  assignment.RecordMaintenanceSystem - Number of New records added : 3
+
+13:25:12.515 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+13:25:12.515 [main] INFO  assignment.RecordMaintenanceSystem - Number of overwritten Records : 10
+
+13:25:12.515 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+13:25:12.515 [main] INFO  assignment.RecordMaintenanceSystem - Following entries have been overwritten : 
+
+13:25:12.517 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, H.P, Male, 500000
+
+13:25:12.517 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 600000
+
+13:25:12.517 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+13:25:12.517 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 700000
+
+13:25:12.517 [main] INFO  assignment.RecordMaintenanceSystem - 2, Shubham, P.B, Male, 600000
+
+13:25:12.517 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+13:25:12.517 [main] INFO  assignment.RecordMaintenanceSystem - 4, Siraj, Kangra, Male, 600000
+
+13:25:12.518 [main] INFO  assignment.RecordMaintenanceSystem - 5, Rishabh, H.P, Male, 300000
+
+13:25:12.518 [main] INFO  assignment.RecordMaintenanceSystem - 6, Shivang, Kullu, Male, 300000
+
+13:25:12.518 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 600000
+
+13:25:12.519 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+13:25:12.519 [main] INFO  assignment.RecordMaintenanceSystem - EmployeeData.dat now have the updated version of old entries and new entries. 
+
+13:25:12.519 [main] INFO  assignment.RecordMaintenanceSystem - oldData.csv Have the overwritten data
+14:03:51.569 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : defaultFiles\newData.csv
+14:03:51.570 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : defaultFiles\EmployeeData.dat
+14:03:51.571 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+14:03:51.573 [main] INFO  assignment.RecordMaintenanceSystem - Number of New records added : 3
+
+14:03:51.573 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+14:03:51.573 [main] INFO  assignment.RecordMaintenanceSystem - Number of overwritten Records : 10
+
+14:03:51.573 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+14:03:51.573 [main] INFO  assignment.RecordMaintenanceSystem - Following entries have been overwritten : 
+
+14:03:51.574 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, H.P, Male, 500000
+
+14:03:51.575 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 600000
+
+14:03:51.575 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+14:03:51.575 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 700000
+
+14:03:51.575 [main] INFO  assignment.RecordMaintenanceSystem - 2, Shubham, P.B, Male, 600000
+
+14:03:51.575 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+14:03:51.575 [main] INFO  assignment.RecordMaintenanceSystem - 4, Siraj, Kangra, Male, 600000
+
+14:03:51.575 [main] INFO  assignment.RecordMaintenanceSystem - 5, Rishabh, H.P, Male, 300000
+
+14:03:51.575 [main] INFO  assignment.RecordMaintenanceSystem - 6, Shivang, Kullu, Male, 300000
+
+14:03:51.575 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 600000
+
+14:03:51.577 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+14:03:51.577 [main] INFO  assignment.RecordMaintenanceSystem - EmployeeData.dat now have the updated version of old entries and new entries. 
+
+14:03:51.577 [main] INFO  assignment.RecordMaintenanceSystem - oldData.csv Have the overwritten data
+14:09:28.752 [main] FATAL assignment.RecordMaintenanceSystem - Properties file Not Found
+14:09:28.758 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - java.lang.Exception
+14:09:47.310 [main] FATAL assignment.RecordMaintenanceSystem - Properties file Not Found
+14:09:47.312 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - java.lang.Exception
+14:12:10.346 [main] FATAL assignment.RecordMaintenanceSystem - Properties file Not Found
+14:12:10.348 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - java.lang.Exception
+14:13:53.038 [main] FATAL assignment.RecordMaintenanceSystem - Properties file Not Found
+14:13:53.040 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - java.lang.Exception
+14:15:05.996 [main] FATAL assignment.RecordMaintenanceSystem - Properties file Not Found
+14:15:05.999 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - java.lang.Exception
+14:19:35.273 [main] FATAL assignment.RecordMaintenanceSystem - Properties file Not Found
+14:19:35.275 [main] FATAL assignment.RecordMaintenanceSystem - An exception has occured - java.lang.Exception
+14:20:28.641 [main] DEBUG assignment.RecordMaintenanceSystem - New data file path : defaultFiles\newData.csv
+14:20:28.642 [main] DEBUG assignment.RecordMaintenanceSystem - Target data file path : defaultFiles\EmployeeData.dat
+14:20:28.642 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+14:20:28.645 [main] INFO  assignment.RecordMaintenanceSystem - Number of New records added : 3
+
+14:20:28.645 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+14:20:28.646 [main] INFO  assignment.RecordMaintenanceSystem - Number of overwritten Records : 10
+
+14:20:28.646 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+14:20:28.646 [main] INFO  assignment.RecordMaintenanceSystem - Following entries have been overwritten : 
+
+14:20:28.647 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, H.P, Male, 500000
+
+14:20:28.647 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 600000
+
+14:20:28.647 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+14:20:28.647 [main] INFO  assignment.RecordMaintenanceSystem - 1, Jattin, Himachal, Male, 700000
+
+14:20:28.647 [main] INFO  assignment.RecordMaintenanceSystem - 2, Shubham, P.B, Male, 600000
+
+14:20:28.647 [main] INFO  assignment.RecordMaintenanceSystem - 3, Akshit, H.P, Male, 400000
+
+14:20:28.648 [main] INFO  assignment.RecordMaintenanceSystem - 4, Siraj, Kangra, Male, 600000
+
+14:20:28.648 [main] INFO  assignment.RecordMaintenanceSystem - 5, Rishabh, H.P, Male, 300000
+
+14:20:28.648 [main] INFO  assignment.RecordMaintenanceSystem - 6, Shivang, Kullu, Male, 300000
+
+14:20:28.648 [main] INFO  assignment.RecordMaintenanceSystem - 7, Ritwik, Bihar, Male, 600000
+
+14:20:28.649 [main] INFO  assignment.RecordMaintenanceSystem - ******************************
+14:20:28.649 [main] INFO  assignment.RecordMaintenanceSystem - EmployeeData.dat now have the updated version of old entries and new entries. 
+
+14:20:28.649 [main] INFO  assignment.RecordMaintenanceSystem - oldData.csv Have the overwritten data
