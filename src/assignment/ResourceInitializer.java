@@ -21,7 +21,7 @@ public class ResourceInitializer {
 	//Initializing properties file
 	public static void initializeFile() {
 		
-		try(FileReader reader = new FileReader("resources\\confsig.properties");){
+		try(FileReader reader = new FileReader("resources\\config.properties");){
 			
 			configFile.load(reader);
 		
