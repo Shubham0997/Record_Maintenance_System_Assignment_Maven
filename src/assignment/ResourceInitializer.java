@@ -26,7 +26,7 @@ public class ResourceInitializer {
 			configFile.load(reader);
 		
 		}  catch (IOException e) {
-			log.error("Config file not loaded/found, default files will be considered");
+			log.error("Config file not loaded/found");
 		}
 	}
 	

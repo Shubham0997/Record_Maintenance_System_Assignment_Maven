@@ -96,7 +96,7 @@ public class RecordMaintenanceSystem {
 	public static String assignSourceFilePath(String defaultnewDataFilePath) {
 		try {
 			String absoluteSourceFilePath= ResourceInitializer.getResource("RecordMaintenanceSystem.source_File_Path");
-			if(absoluteSourceFilePath== null || absoluteSourceFilePath.isEmpty() ) {
+			if(absoluteSourceFilePath.isEmpty() ) {
 				absoluteSourceFilePath=defaultnewDataFilePath ;
 			}
 	
@@ -112,7 +112,7 @@ public class RecordMaintenanceSystem {
 	public static String assignTargetFilePath(String defaultemployeeDataFilePath) {
 		try {
 			String absoluteTargetFilePath= ResourceInitializer.getResource("RecordMaintenanceSystem.target_File_Path");
-			if(absoluteTargetFilePath==null || absoluteTargetFilePath.isEmpty()  ) {
+			if(absoluteTargetFilePath.isEmpty()  ) {
 				absoluteTargetFilePath=defaultemployeeDataFilePath ;
 			}
 			
