@@ -12,31 +12,24 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Problem Statement/ Assignment : Record Maintenance System Task: a) Read a
- * file (CSV format) e.g ID,Name,Add,Gender,....etc. (ID is unique key of each
- * record) b) Insert all the records in a target file (in the same format) e.g
- * FileName :- EmployeeData.dat. c) Make sure it must not duplicate the records
- * in target file, in fact overwrite the record which is already present. d) At
- * the end, must display how many new records have been added and how many
- * over-written. e) Save previous record value, for each record over-written. f)
- * And show all the newly added ids in sorted order. Note: If Input file
- * contains any duplicate record (ID) then only the latest entry should go
- * through and we have to save the previous value in a separate file (step e).
- * 
- * 
+ * Problem Statement/ Assignment : Record Maintenance System Task: 
+a) Read a file (CSV format) e.g ID,Name,Add,Gender,....etc. (ID is unique key of each record)
+b) Insert all the records in a target file (in the same format) e.g FileName :- EmployeeData.dat.
+c) Make sure it must not duplicate the records in target file, infact overwrite the record which is already present.
+d) At the end, must display how many new records have been added and how many over-written.
+e) Save previous record value, for each record over-written.
+f) And show all the newly added ids in sorted order.
+Note: If Input file contains any duplicate record (ID) then only the latest entry should go through and we have to save the previous value in a separate file (step e).
+ *
  * @author Shubham Sharma
  *
  *
  **/
 
 public class RecordMaintenanceSystem {
-
+	
 	private static Logger log = LogManager.getLogger(RecordMaintenanceSystem.class.getName()); // Logger Method Object
-	private static String newDataFilePath; // CSV file path with new data, needed to be copied into the target file
-	private static String employeeDataFilePath; // .dat file path into which the data will be copied
-	private static String oldDataFilePath = "oldData.csv";
-	// File paths variable
-
+	
 	private static HashMap<Integer, User> updatedRecords = new HashMap<>(); // contains the updated records out of both files
 	private static List<User> overwrittenRecord = new ArrayList<>(); // contains the overwritten records
 	// Collections declarations
@@ -44,24 +37,31 @@ public class RecordMaintenanceSystem {
 	private static int newRecordCounter = 0; // counts the number of newly added records
 	private static int overWrittenCounter = 0; // counts the number of old records which are overwritten
 	private static int key;
+	private static String[] fieldHeaderTemplate = new String[] {"Id,","Name,","Address,","Gender,","Salary"};
 	// variable declarations
 
+	
 	// main method
 	public static void main(String[] args) {
+		
+		
 
 		try {
 			
-			//assigning values to properties file path and their properties, default file paths.
-			String propertiesFilePath="resources\\config.properties"; //
-			String propertyKey1="RecordMaintenanceSystem.source_File_Path";
-			String propertyKey2="RecordMaintenanceSystem.target_File_Path";
 			
-			String defaultnewDataFilePath="defaultFiles\\newData.csv";
-			String defaultemployeeDataFilePath="defaultFiles\\EmployeeData.dat";
-
-			assignAbsoluteFilePath(propertiesFilePath,propertyKey1,propertyKey2, defaultnewDataFilePath, defaultemployeeDataFilePath); // method call to assign absolute file path to path variables
+			initializeResource();
+			
+			String defaultnewDataFilePath="defaultFiles\\newData.csv"; // default new data csv file path, selected in case no path found in properties
+			String defaultemployeeDataFilePath="defaultFiles\\EmployeeData.dat"; //default employeeData dat file path, selected in case no path found in properties
+			String oldDataFilePath = "defaultFiles\\oldData.csv";
+			
+			String newDataFilePath=assignSourceFilePath(defaultnewDataFilePath); // CSV file path with new data, needed to be copied into the target file
+			String employeeDataFilePath=assignTargetFilePath(defaultemployeeDataFilePath);	// .dat file path into which the data will be copied		
+			
+			log.debug("Source File Path : " + newDataFilePath);
+			log.debug("Target File Path : " + employeeDataFilePath);
 			log.info("******************************");
-
+			
 			// Method call for file read/write operations
 			readEmployeeDataFile(employeeDataFilePath);
 			readNewDataFile(newDataFilePath);
@@ -76,42 +76,53 @@ public class RecordMaintenanceSystem {
 			handleOverwrittenRecord(overwrittenRecord, oldDataFilePath);
 
 			log.info("EmployeeData.dat now have the updated version of old entries and new entries. \n");
-			log.info("oldData.csv Have the overwritten data");
+			log.info(oldDataFilePath+ " Have the overwritten data");
 
 		} catch (Exception e) {
 			log.fatal("An exception has occured - " + e);
 		}
 
 	}
-
-	// Below method sets the source and target file paths using the property file if found, if not found, default paths will be assigned
-	public static void assignAbsoluteFilePath(String propertiesFilePath, String propertyKey1, String propertyKey2, String defaultnewDataFilePath, String defaultemployeeDataFilePath) throws Exception {
-
-		try {
-
-			HandleFilePath objectHandleFilePath = new HandleFilePath(propertiesFilePath,propertyKey1,propertyKey2 ); // object of "HandleAbsoluteFilePath", which will set and return the path variables
-
-			// method calls to assign the paths using properties file
-			newDataFilePath = objectHandleFilePath.getSourceFilePath();
-			employeeDataFilePath = objectHandleFilePath.getTargetFilePath();
-			
-			
-			//checking if the path gotten is empty, if empty, the default path will be given 
-			if(newDataFilePath.isEmpty()) {
-				newDataFilePath=defaultnewDataFilePath ;
-			}
-			if(employeeDataFilePath.isEmpty()) {
-				 employeeDataFilePath=defaultemployeeDataFilePath ;
-			}
-			
-			log.debug("New data file path : " + newDataFilePath);
-			log.debug("Target data file path : " + employeeDataFilePath);
-			
-		} catch (Exception e) {
-		throw new Exception();
-		}
-
+	
+	//initializing properties file 
+	public static void initializeResource() {
+		ResourceInitializer.initializeFile();
 	}
+	
+	
+	//method to assign source file path, from config.properties, if not found default path will be assigned
+	public static String assignSourceFilePath(String defaultnewDataFilePath) {
+		try {
+			String absoluteSourceFilePath= ResourceInitializer.getResource("RecordMaintenanceSystem.source_File_Path");
+			if(absoluteSourceFilePath.isEmpty()) {
+				absoluteSourceFilePath=defaultnewDataFilePath ;
+			}
+	
+			return absoluteSourceFilePath;
+			
+		}catch(Exception e) {
+			log.debug(e);
+		}
+		return "";
+	}
+	
+	//method to assign target file path, from config.properties, if not found default path will be assigned
+	public static String assignTargetFilePath(String defaultemployeeDataFilePath) {
+		try {
+			String absoluteTargetFilePath= ResourceInitializer.getResource("RecordMaintenanceSystem.target_File_Path");
+			if(absoluteTargetFilePath.isEmpty()) {
+				absoluteTargetFilePath=defaultemployeeDataFilePath ;
+			}
+			
+			return absoluteTargetFilePath;
+			
+		}catch(Exception e) {
+			log.debug(e);
+		}
+		return "";
+		
+	}
+
 
 	// This method sets the data fields w.r.t the User class
 	public static User setDataFields(String[] fields, User user) {
@@ -129,10 +140,9 @@ public class RecordMaintenanceSystem {
 
 	}
 
-	// Below method reads target file -EmployeeData.dat file (contains old data
-	// entries), and copies the content into the "updatedRecords" HashMap
+	// Below method reads target file -EmployeeData.dat file (contains old data entries), and copies the content into the "updatedRecords" HashMap
 
-	public static void readEmployeeDataFile(String employeeDataFilePath) throws Exception, FileNotFoundException {
+	public static void readEmployeeDataFile(String employeeDataFilePath)  {
 
 		String line = "";
 
@@ -160,15 +170,14 @@ public class RecordMaintenanceSystem {
 			}
 
 		} catch (FileNotFoundException e) {
-			throw new FileNotFoundException ("Target File not found");
+			log.error("Target File not found, new one will be created");
 		} catch (Exception e) {
-			throw new Exception();
+			log.error(e);
 		}
 
 	}
 
-	// Below method reads newData.csv file (contains new data entries to be updated
-	// into existing data file), and copies the content to "updatedRecords" HashMap
+	// Below method reads newData.csv file (contains new data entries to be updated into existing data file), and copies the content to "updatedRecords" HashMap
 	public static void readNewDataFile(String newDataFilePath) throws Exception, FileNotFoundException {
 		String line = "";
 		try (BufferedReader reader = new BufferedReader(new FileReader(newDataFilePath));) {
@@ -202,14 +211,18 @@ public class RecordMaintenanceSystem {
 		}
 	}
 
+	
 	// Below method updates the updated data into the EmployeeData.dat file using "updatedRecords" HashMap
 	public static void populateFinalDatabase(String employeeDataFilePath) throws Exception, FileNotFoundException {
 
 		try (FileWriter fileWriter = new FileWriter(employeeDataFilePath);) {
 
 			// setting up the field heading in EmployeeData.dat file
-			fileWriter.write("Id, Name, Address, Gender, Salary \n");
-
+			for(String header: fieldHeaderTemplate) {
+				fileWriter.write(header);
+			}
+			fileWriter.write("\n");
+			
 			// write data from the HashMap into the EmployeeData.dat
 			for (Map.Entry<Integer, User> entry : updatedRecords.entrySet()) {
 
@@ -229,9 +242,14 @@ public class RecordMaintenanceSystem {
 			throws Exception, FileNotFoundException {
 
 		try (FileWriter fileWriter = new FileWriter(oldDataFilePath);) {
+			
 			// setting up the field heading in EmployeeData.dat file
-
-			fileWriter.write("Id, Name, Address, Gender, Salary \n");
+			for(String header: fieldHeaderTemplate) {
+				fileWriter.write(header);
+			}
+			fileWriter.write("\n");
+			
+			//fileWriter.write(fieldHeaderTemplate[0]+fieldHeaderTemplate[1]+fieldHeaderTemplate[2]+fieldHeaderTemplate[3]+fieldHeaderTemplate[4]);
 
 			for (User u : overwrittenRecord) {
 				log.info(u);
