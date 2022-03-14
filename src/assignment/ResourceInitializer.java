@@ -21,12 +21,12 @@ public class ResourceInitializer {
 	//Initializing properties file
 	public static void initializeFile() {
 		
-		try(FileReader reader = new FileReader("resources\\config.properties");){
+		try(FileReader reader = new FileReader("resources\\confsig.properties");){
 			
 			configFile.load(reader);
 		
 		}  catch (IOException e) {
-			log.error("Config file not loaded ");
+			log.error("Config file not loaded/found, default files will be considered");
 		}
 	}
 	

@@ -40,6 +40,10 @@ public class RecordMaintenanceSystem {
 	private static String[] fieldHeaderTemplate = new String[] {"Id,","Name,","Address,","Gender,","Salary"};
 	// variable declarations
 
+
+	final static String DEFAULT_NEW_DATA_FILE_PATH="defaultFiles\\newData.csv"; // default new data csv file path, selected in case no path found in properties
+	final static String DEFAULT_EMPLOYEE_DATA_FILE_PATH="defaultFiles\\EmployeeData.dat"; //default employeeData dat file path, selected in case no path found in properties
+	final static String OLD_FILE_PATH = "defaultFiles\\oldData.csv";
 	
 	// main method
 	public static void main(String[] args) {
@@ -51,12 +55,10 @@ public class RecordMaintenanceSystem {
 			
 			initializeResource();
 			
-			String defaultnewDataFilePath="defaultFiles\\newData.csv"; // default new data csv file path, selected in case no path found in properties
-			String defaultemployeeDataFilePath="defaultFiles\\EmployeeData.dat"; //default employeeData dat file path, selected in case no path found in properties
-			String oldDataFilePath = "defaultFiles\\oldData.csv";
 			
-			String newDataFilePath=assignSourceFilePath(defaultnewDataFilePath); // CSV file path with new data, needed to be copied into the target file
-			String employeeDataFilePath=assignTargetFilePath(defaultemployeeDataFilePath);	// .dat file path into which the data will be copied		
+			
+			String newDataFilePath=assignSourceFilePath(DEFAULT_NEW_DATA_FILE_PATH); // CSV file path with new data, needed to be copied into the target file
+			String employeeDataFilePath=assignTargetFilePath(DEFAULT_EMPLOYEE_DATA_FILE_PATH);	// .dat file path into which the data will be copied		
 			
 			log.debug("Source File Path : " + newDataFilePath);
 			log.debug("Target File Path : " + employeeDataFilePath);
@@ -73,10 +75,10 @@ public class RecordMaintenanceSystem {
 			log.info("******************************");
 
 			log.info("Following entries have been overwritten : \n");
-			handleOverwrittenRecord(overwrittenRecord, oldDataFilePath);
+			handleOverwrittenRecord(overwrittenRecord, OLD_FILE_PATH);
 
 			log.info("EmployeeData.dat now have the updated version of old entries and new entries. \n");
-			log.info(oldDataFilePath+ " Have the overwritten data");
+			log.info(OLD_FILE_PATH+ " Have the overwritten data");
 
 		} catch (Exception e) {
 			log.fatal("An exception has occured - " + e);
@@ -94,7 +96,7 @@ public class RecordMaintenanceSystem {
 	public static String assignSourceFilePath(String defaultnewDataFilePath) {
 		try {
 			String absoluteSourceFilePath= ResourceInitializer.getResource("RecordMaintenanceSystem.source_File_Path");
-			if(absoluteSourceFilePath.isEmpty()) {
+			if(absoluteSourceFilePath== null || absoluteSourceFilePath.isEmpty() ) {
 				absoluteSourceFilePath=defaultnewDataFilePath ;
 			}
 	
@@ -110,7 +112,7 @@ public class RecordMaintenanceSystem {
 	public static String assignTargetFilePath(String defaultemployeeDataFilePath) {
 		try {
 			String absoluteTargetFilePath= ResourceInitializer.getResource("RecordMaintenanceSystem.target_File_Path");
-			if(absoluteTargetFilePath.isEmpty()) {
+			if(absoluteTargetFilePath==null || absoluteTargetFilePath.isEmpty()  ) {
 				absoluteTargetFilePath=defaultemployeeDataFilePath ;
 			}
 			
